@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/jsorianello/.nvm/versions/node/v16.14.0/bin/node /Users/jsorianello/.node/corepack/yarn/1.22.15/bin/yarn.js global dir
+
+PATH: 
+  /Users/jsorianello/.nvm/versions/node/v16.14.0/bin:/Users/jsorianello/go/bin:/Users/jsorianello/.local/bin:./node_modules/.bin:/Users/jsorianello/.cargo/env:/opt/homebrew/sbin:/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/Users/jsorianello/.cargo/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: Failed to replace env in config: ${NPM_TOKEN}
+      at /Users/jsorianello/.node/corepack/yarn/1.22.15/lib/cli.js:94928:13
+      at String.replace (<anonymous>)
+      at envReplace (/Users/jsorianello/.node/corepack/yarn/1.22.15/lib/cli.js:94923:16)
+      at Function.normalizeConfig (/Users/jsorianello/.node/corepack/yarn/1.22.15/lib/cli.js:31930:69)
+      at NpmRegistry.<anonymous> (/Users/jsorianello/.node/corepack/yarn/1.22.15/lib/cli.js:31960:34)
+      at Generator.next (<anonymous>)
+      at step (/Users/jsorianello/.node/corepack/yarn/1.22.15/lib/cli.js:310:30)
+      at /Users/jsorianello/.node/corepack/yarn/1.22.15/lib/cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "lifecycle-deps",
+      "private": true,
+      "dependencies": {
+          "@pnpm/lifecycle": "14.1.3",
+          "@pnpm/logger": "5.0.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -17,4 +17,4 @@ npx -y @vercel/ncc@0.33.4 build lifecycle-hooks.js -o min
 # ascii_only avoids bad unicode conversions, fixing
 # https://github.com/aspect-build/rules_js/issues/45
 npx -y terser@5.12.1 min/index.js -b ascii_only=true > min/index.min.js
-rm min/index.js
+#rm min/index.js
