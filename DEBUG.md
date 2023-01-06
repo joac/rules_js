@@ -18,7 +18,6 @@ cd -
 Add the override file
 
 ```sh
-OVERRIDE="--override_repository=aspect_rules_js=$(pwd)"
-echo "common:override $OVERRIDE" >> ~/.bazelrc
+OVERRIDE="--override_repository=aspect_rules_js=$(pwd)" echo "common:override $OVERRIDE" >> ~/.bazelrc
 ```
 
